@@ -233,6 +233,8 @@ See README for further information.</code></pre>
 <p>Para obtener la lista de <em>plugins</em> instalados en nuestro sitio WordPress podemos ejecutar:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb2-1" title="1"><span class="ex">wpscan</span> --url http://192.168.22.20 --enumerate p</a></code></pre></div>
 <p>Donde <strong>192.168.22.20</strong> será la dirección IP de nuestro balanceador web.</p>
+</body>
+</html>
  <title>Resultado 1:</title>
 
 ubuntu@ip-172-31-90-230:~$ sudo docker run -it --rm wpscanteam/wpscan --url http://www.iessierradegador.com/  --enumerate p
