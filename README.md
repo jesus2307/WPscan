@@ -1,6 +1,6 @@
 # Resultado 1:
 
-PS C:\Users\jesus> docker run -it --rm wpscanteam/wpscan --url http://3.236.92.160/  --enumerate p
+* PS C:\Users\jesus> docker run -it --rm wpscanteam/wpscan --url http://3.236.92.160/  --enumerate p
 _______________________________________________________________
          __          _______   _____
          \ \        / /  __ \ / ____|
