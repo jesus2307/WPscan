@@ -96,7 +96,7 @@ Interesting Finding(s):
 [+] Elapsed time: 00:00:07
  
  
-#Resultado 2:
+# Resultado 2:
 
 PS C:\Users\jesus> docker run -it --rm wpscanteam/wpscan --url http://3.236.92.160/  --api-token 7aUhTRe0G0WB5M0R7HZLJdY4Sg4EZN7ScIZU2b6hiDI
 _______________________________________________________________
