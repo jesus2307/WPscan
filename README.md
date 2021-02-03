@@ -1,4 +1,5 @@
 # Resultado 1:
+### Para obtener la lista de plugins instalados en nuestro sitio WordPress podemos ejecutar:
 
 * PS C:\Users\jesus> docker run -it --rm wpscanteam/wpscan --url http://3.236.92.160/  --enumerate p
 _______________________________________________________________
