@@ -2,6 +2,7 @@
 ### Para obtener la lista de plugins instalados en nuestro sitio WordPress podemos ejecutar:
 
 * PS C:\Users\jesus> docker run -it --rm wpscanteam/wpscan --url http://3.236.92.160/  --enumerate p
+```
 _______________________________________________________________
          __          _______   _____
          \ \        / /  __ \ / ____|
@@ -95,13 +96,14 @@ Interesting Finding(s):
 [+] Data Received: 213.459 KB
 [+] Memory used: 241.055 MB
 [+] Elapsed time: 00:00:07
- 
+```
  
 # Resultado 2:
 ### En este ejemplo haremos uso de la API de WPScan que nos permite detectar vulnerabilidades haciendo uso de su base de datos de vulnerabilidades.
 ### Para poder hacer uso del servicio de la API de WPScan,es necesario registrarse en su web y obtener un TOKEN.
 
 * PS C:\Users\jesus> docker run -it --rm wpscanteam/wpscan --url http://3.236.92.160/  --api-token 7aUhTRe0G0WB5M0R7HZLJdY4Sg4EZN7ScIZU2b6hiDI
+```
 _______________________________________________________________
          __          _______   _____
          \ \        / /  __ \ / ____|
@@ -202,10 +204,12 @@ Interesting Finding(s):
 [+] Data Received: 225.136 KB
 [+] Memory used: 207.516 MB
 [+] Elapsed time: 00:00:08
+```
 
 # Resultado 3:
 ### Para realizar un escaneo completo de un sitio WordPress podemos ejecutar:
 ### docker run -it --rm wpscanteam/wpscan --url http://51.77.242.168
+```
 _______________________________________________________________
          __          _______   _____
          \ \        / /  __ \ / ____|
@@ -438,3 +442,4 @@ Interesting Finding(s):
 [+] Data Received: 14.062 MB
 [+] Memory used: 222.746 MB
 [+] Elapsed time: 00:00:34
+```
