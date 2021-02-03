@@ -97,6 +97,8 @@ Interesting Finding(s):
  
  
 # Resultado 2:
+### En este ejemplo haremos uso de la API de WPScan que nos permite detectar vulnerabilidades haciendo uso de su base de datos de vulnerabilidades.
+### Para poder hacer uso del servicio de la API de WPScan,es necesario registrarse en su web y obtener un TOKEN.
 
 * PS C:\Users\jesus> docker run -it --rm wpscanteam/wpscan --url http://3.236.92.160/  --api-token 7aUhTRe0G0WB5M0R7HZLJdY4Sg4EZN7ScIZU2b6hiDI
 _______________________________________________________________
